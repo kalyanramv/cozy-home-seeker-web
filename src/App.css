@@ -49,3 +49,15 @@
 .hide-scrollbar::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
+
+/* Spotlight gradient effect */
+.spotlight-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 25vh;
+  background: radial-gradient(circle at center top, rgba(255, 90, 95, 0.15) 0%, rgba(255, 56, 92, 0.05) 50%, transparent 80%);
+  z-index: 1;
+  pointer-events: none;
+}
