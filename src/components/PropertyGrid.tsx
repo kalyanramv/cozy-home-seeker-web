@@ -5,7 +5,7 @@ import PropertyCard from './PropertyCard';
 const properties = [
   {
     id: 1,
-    name: 'Modern Apartment with City View',
+    name: 'Modern Apartment with City Viewwww',
     location: 'New York, United States',
     price: 120,
     rating: 4.95,
