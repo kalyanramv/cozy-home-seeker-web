@@ -52,6 +52,99 @@ const properties = [
       },
     ]
   },
+
+
+    {
+    id: 1,
+    name: 'Modern Apartment with City View',
+    location: 'New York, United States',
+    price: 120,
+    rating: 4.95,
+    reviewCount: 120,
+    host: {
+      name: 'John Doe',
+      image: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
+      isSuperhost: true,
+    },
+    images: [
+      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1541123437800-1bb1317badc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+      'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1658&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+    ],
+    description: 'This stylish apartment features floor-to-ceiling windows with breathtaking views of the city skyline. Enjoy the modern amenities, including a fully equipped kitchen, high-speed WiFi, and smart home features. Located in the heart of the city, you\'ll be steps away from restaurants, shops, and public transportation.',
+    amenities: [
+      'Wifi', 'Kitchen', 'Washer', 'Dryer', 'Air conditioning', 'Heating',
+      'Dedicated workspace', 'TV', 'Hair dryer', 'Iron'
+    ],
+    beds: 2,
+    baths: 1,
+    guests: 4,
+    reviews: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'March 2023',
+        content: 'Amazing place with stunning views. Very clean and the host was very responsive.',
+        rating: 5,
+      },
+      {
+        id: 2,
+        author: 'Michael',
+        date: 'February 2023',
+        content: 'Great location, comfortable beds, and all the amenities you need for a pleasant stay.',
+        rating: 5,
+      },
+    ]
+  },
+
+
+    {
+    id: 1,
+    name: 'Modern Apartment with City View',
+    location: 'New York, United States',
+    price: 120,
+    rating: 4.95,
+    reviewCount: 120,
+    host: {
+      name: 'John Doe',
+      image: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
+      isSuperhost: true,
+    },
+    images: [
+      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1541123437800-1bb1317badc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+      'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1658&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+    ],
+    description: 'This stylish apartment features floor-to-ceiling windows with breathtaking views of the city skyline. Enjoy the modern amenities, including a fully equipped kitchen, high-speed WiFi, and smart home features. Located in the heart of the city, you\'ll be steps away from restaurants, shops, and public transportation.',
+    amenities: [
+      'Wifi', 'Kitchen', 'Washer', 'Dryer', 'Air conditioning', 'Heating',
+      'Dedicated workspace', 'TV', 'Hair dryer', 'Iron'
+    ],
+    beds: 2,
+    baths: 1,
+    guests: 4,
+    reviews: [
+      {
+        id: 1,
+        author: 'Sarah',
+        date: 'March 2023',
+        content: 'Amazing place with stunning views. Very clean and the host was very responsive.',
+        rating: 5,
+      },
+      {
+        id: 2,
+        author: 'Michael',
+        date: 'February 2023',
+        content: 'Great location, comfortable beds, and all the amenities you need for a pleasant stay.',
+        rating: 5,
+      },
+    ]
+  },
+  
   // ... more properties would be added here
 ];
 
